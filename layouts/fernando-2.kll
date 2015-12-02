@@ -7,6 +7,7 @@ KLL = "0.3";
 Date = "2014-09-14";
 Generator = "KIICONF 0.2";
 
+# Esc row
 U"7" : CONS"SCANPREVIOUSTRACK";
 U"8" : CONS"PLAY";
 U"9" : CONS"SCANNEXTTRACK";
@@ -14,5 +15,7 @@ U"0" : CONS"MUTE";
 U"MINUS" : CONS"VOLUMEDOWN";
 U"EQUAL" : CONS"VOLUMEUP";
 U"BACKTICK" : SYS"POWERDOWN";
+
+# Q row
 U"W" : flashMode();
 
